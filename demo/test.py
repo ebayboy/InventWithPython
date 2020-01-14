@@ -15,4 +15,3 @@ def default():
 dic = {'case1': case1, 'case2': case2}
 
 dic.get('case11', default)()
-
