@@ -2,6 +2,7 @@
 # -*- coding: UTF-8 -*-
 
 import sys
+import json
 
 #filename = sys.argv[1]
 filename = r"D:\source\InventWithPython\demo\rose1\usbPerf_itl_generic_64_smp_Dynamic_DI_28614.ini"
@@ -55,7 +56,10 @@ while 1:
 			i = i + 1
 	mode = 0
 
-print(dics)
+#print(dics)
+str_json = json.dumps(dics)
+
+print(str_json)
 
 f.close()
 
